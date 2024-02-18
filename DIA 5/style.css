@@ -1,1 +1,140 @@
 /*DIA 5*/
+body {
+  background-color: rgb(255, 225, 161);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  margin-top: -20px;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.square {
+  background-image: url(equipe3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 380px;
+  width: 580px;
+  height: 580px;
+}
+
+h2{
+  font-size: 48px;
+  position: absolute;
+  margin-top: -240px;
+  margin-right: 620px;
+}
+
+.content {
+  margin-top: -180px;
+  display: flex;
+}
+
+.circle1 {
+  margin-left: -20px;
+  margin-top: -80px;
+  position: absolute;	
+  background-image: url(equipe2.png);
+  width: 383.686px;
+  background-repeat: no-repeat;
+  background-size: 532px;
+  background-position: -108px;
+  aspect-ratio: 1;
+  clip-path: circle(calc(54% - 30.092px));
+ }
+
+#texto1{
+  margin-left: 380px;
+  width: 980px !important;
+}
+
+.content2 {
+  margin-top: 180px;
+  display: flex;
+}
+
+
+.square2 {
+    margin-left: 878px;
+    margin-top: -80px;
+    position: absolute;	
+    background-size: cover;
+    background-image: url(equipe.png);
+    width: 480px;
+    height: 300px;
+    background-position: -20px;
+    background-repeat: no-repeat;
+    aspect-ratio: 1;
+   }
+
+
+   #texto2{
+    margin-top: -90px;
+    margin-left: 590px;
+    width: 840px !important;
+  }
+   #texto3{
+    margin-top: -20px;
+    margin-left: 20px;
+    width: 840px !important;
+  }
+
+h3 {
+  text-align: justify;
+}
+
+
+
+.content3 {
+  margin-top: 260px;
+  display: flex;
+}
+
+#texto4{
+  margin-top: -226px;
+  margin-left: 370px;
+  width: 840px !important;
+  position:absolute;
+  margin-right:390px;
+}
+
+.square3{
+  position: absolute;
+  margin-top: -160px;
+  background-image: url(equipe4.png);
+  background-repeat: no-repeat;
+  margin-left: 270px;
+  width: 2976px !important;
+  height: 400px;
+}
+#texto5{
+  margin-top: 282px;
+  margin-left: 19.5px;
+  width: 600px !important;
+  font-size: 24px;
+}
+
+ul{
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 282px;
+  margin-left: 20px;
+  text-align: justify;
+  width: 660px !important;
+}
