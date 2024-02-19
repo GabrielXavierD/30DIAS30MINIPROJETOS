@@ -1,1 +1,51 @@
 <!--DIA 8-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>FAQ</title>
+</head>
+<body>
+    <div class="faq">
+        <h2>FAQ</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">Como posso entrar em contato com o suporte?</div>
+            <div class="faq-answer">Você pode entrar em contato com nosso suporte por e-mail: support@example.com</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Qual é a política de devolução?</div>
+            <div class="faq-answer">Nossa política de devolução permite que você devolva itens dentro de 30 dias após a compra, desde que estejam em condições originais.</div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question">Quanto tempo demora para receber meu pedido?</div>
+            <div class="faq-answer">O tempo de entrega varia dependendo da sua localização. Geralmente, os pedidos são entregues dentro de 3-5 dias úteis.</div>
+        </div>
+        
+        
+    </div>
+    
+    <script>
+        // Adiciona funcionalidade de toggle para as respostas
+        var faqQuestions = document.querySelectorAll('.faq-question');
+        faqQuestions.forEach(function(question) {
+            question.addEventListener('click', function() {
+                var answer = this.nextElementSibling;
+                if (answer.style.display === 'none') {
+                    answer.style.display = 'block';
+                } else {
+                    answer.style.display = 'none';
+                }
+            });
+        });
+    </script>
+    
+
+</body>
+</html>
