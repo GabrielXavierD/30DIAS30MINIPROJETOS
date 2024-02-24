@@ -1,27 +1,44 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+/*DIA 9*/
+body{
+    background-image: url(imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.faq {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
+
+h1{
+    text-align: center;
+}
+.juntatudo {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.func1,
+.func2, 
+.func3,
+.func4 {
     border-radius: 10px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 7px 8px 4px 0px rgba(0, 0, 0, 0.3);
 }
-.faq h2 {
-    color: #333;
+
+img {
+    width: 280px;
+    height: 280px; /* Definindo uma altura fixa para todas as imagens */
+    object-fit: cover; /* Para garantir que a imagem preencha completamente a área especificada */
 }
-.faq-item {
-    margin-bottom: 20px;
-}
-.faq-question {
-    font-weight: bold;
-    cursor: pointer;
-}
-.faq-answer {
-    display: none;
-    margin-top: 10px;
+
+p {
+    text-align: justify;
+    width: 280px;
 }
