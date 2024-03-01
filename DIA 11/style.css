@@ -16,15 +16,18 @@ body {
     justify-content: center;
     align-items: center;
     width: 1000px;
-    height: 1400px;
+    height: 1260px;
     background-color: gray;
     padding: 20px;
     gap: 420px !important;
     
 }
 
-
-
+h1{
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 4px 2px #000000;
+}
 .pdestaque {
     text-align: center;
     margin-top: 0;
@@ -76,4 +79,23 @@ button:hover {
     background-color: rgb(240, 200, 75);
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+footer{
+    margin-top: 100px;
+    margin-left: -20px !important;
+    background-color: #ffffff;
+    width:1040px;
+    height: 40px;
+}
+
+footer p {
+    padding:auto;
+    padding-top: 10px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+footer a {
+    color: rgb(11, 11, 255);
 }
