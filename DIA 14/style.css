@@ -26,7 +26,7 @@ body{
 
 h1{
     position: absolute;
-    margin-top: -80px;
+    margin-top: -110px;
     margin-left: 320px !important;
     font-size: 40px;
     color: #ffff;
@@ -61,7 +61,7 @@ p{
 img{
     height: 180px;
     width: 180px;
-    /*manterproporção*/object-fit: cover;
+    object-fit: cover;/*manter a proporção*/
     border-radius: 100%;
     display: flex;
     margin: auto;
