@@ -1,0 +1,55 @@
+/*DIA 28*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+form {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(28, 28, 28);
+    border: 4px solid black;
+    height: 380px;
+    width: 444px;
+    font-size: 24px;
+}
+
+.senha {
+    position: absolute;
+    margin-left: -52px !important;
+}
+
+input {
+    width: 320px;
+    max-width: 320px;
+}
+
+label,
+input {
+    margin-left: 70px;
+}
+
+li {
+    font-size: 20px;
+}
+
+button {
+    margin-left: 130px;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 4px solid black;
+    text-align: left;
+}
