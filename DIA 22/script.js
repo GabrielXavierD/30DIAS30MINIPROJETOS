@@ -6,6 +6,7 @@ if(fundo ==  "white"){
      document.querySelector("body").style.backgroundColor = "#333333";
   
  }else{
-   
+    document.querySelector("h2").style.color = "black";
+     
  }
     }
