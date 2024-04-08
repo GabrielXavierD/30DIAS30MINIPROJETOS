@@ -1,0 +1,150 @@
+<<<<<<< HEAD
+/*DIA 4*/
+
+body {
+    background-image: url(./background/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+.juntatudo {
+    background-color: rgb(182, 175, 75);
+    height: 2060px;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 10px !important;
+}
+
+p {
+    font-size: 20px;
+    margin-top: -12px;
+    padding-left: 40px;
+    text-align: justify;
+    width: 1080px;
+
+}
+
+
+
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.at-item {
+    color: #000000;
+    font-weight: bold;
+    font-size: 60px;
+
+    animation-name: focus-in-expand;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    /* shorthand
+    animation: focus-in-expand 1s linear 0s 1 normal none;*/
+}
+
+@keyframes focus-in-expand {
+
+    0% {
+        letter-spacing: -.5em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+=======
+/*DIA 4*/
+
+body {
+    background-image: url(./background/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+.juntatudo {
+    background-color: rgb(182, 175, 75);
+    height: 2060px;
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 10px !important;
+}
+
+p {
+    font-size: 20px;
+    margin-top: -12px;
+    padding-left: 40px;
+    text-align: justify;
+    width: 1080px;
+
+}
+
+
+
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.at-item {
+    color: #000000;
+    font-weight: bold;
+    font-size: 60px;
+
+    animation-name: focus-in-expand;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    /* shorthand
+    animation: focus-in-expand 1s linear 0s 1 normal none;*/
+}
+
+@keyframes focus-in-expand {
+
+    0% {
+        letter-spacing: -.5em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1;
+    }
+>>>>>>> 55265a52762d4fe0add28a9fc2c3d7c548bc3f50
+}
