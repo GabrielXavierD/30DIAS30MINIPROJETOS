@@ -1,0 +1,82 @@
+/*DIA 7*/
+
+.juntatudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+.plano1, .plano2, .plano3{
+    margin-top: 20px;
+    background-color: #cccccc54;
+    width: 380px;
+    height: 620px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: justify;
+    padding-right:20px;
+    box-shadow: 12px 22px 16px 0px rgba(59, 59, 59, 0.6);
+}
+
+
+h1{
+    align-items: center;
+    text-align: center !important;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    border: 4px solid rgb(255, 217, 91);
+    margin-left: 20px;
+    margin-right: auto;
+    text-align: center;
+    font-size: 42px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.plano1:hover, .plano2:hover, .plano3:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#botao1, #botao2, #botao3{
+    color: rgb(26, 87, 24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: auto;
+    border: none;
+    background-color: rgb(255, 217, 91);
+    height: 80px;
+    width: 300px;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#preco1{
+    position: relative;
+    top: 46px !important;
+}
+ #botao1{
+    margin-top: 81px;
+}
+
+#preco3{
+    position: relative;
+    top: -20px !important;
+}
+#botao3{
+margin-top: -26px;
+}
+
+#botao1:hover, #botao2:hover, #botao3:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}

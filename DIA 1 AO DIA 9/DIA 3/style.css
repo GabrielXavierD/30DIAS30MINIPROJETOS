@@ -1,0 +1,56 @@
+/*DIA 3*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&family=Rubik+Mono+One&display=swap');
+body{
+    height: 120%;
+   }
+
+.juntatudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Protest Strike", sans-serif;
+    font-size: 30px;
+    align-items: center;
+    text-align: justify;
+    width: 980px;
+}
+
+p {
+    font-family: "Protest Strike", sans-serif;
+    font-size: 30px;
+    align-items: center;
+    text-align: justify;
+    width: 980px;
+
+}
+
+input {
+    margin-left: -440px;
+    height: 25px;
+    width: 630px;
+    position: absolute;
+}
+
+button {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 90px;
+    height: 29.5px;
+    width: 106px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 0px;
+    color: white;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(65, 65, 65);
+
+}
+
+
+form{
+    margin-left: -98px;
+>>>>>>> 55265a52762d4fe0add28a9fc2c3d7c548bc3f50
+}
