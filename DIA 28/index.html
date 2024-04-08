@@ -1,0 +1,41 @@
+<!--DIA 28-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Verificar senha forte</title>
+</head>
+
+<body>
+
+    <form>
+        <p style="text-align: center; font-size: 16px;">@GabrielXavierD</p>
+        <div class="senha">
+            <label for="">Digite uma senha:</label>
+            <br>
+            <input type="password" name="" id="senha" required maxlength="10">
+        </div>
+        <br><br>
+        <ul id="lista">
+            <li id="senhaMaior10">Senha maior ou igual a 10 digitos.</li>
+            <li id="senhaUmaLMin">Senha com pelo menos uma letra minúscula.</li>
+            <li id="senhaUmaLMai">Senha com pelo menos uma letra maiúscula.</li>
+            <li id="senhaUmCEsp">Senha com pelo menos uma caractere especial.</li>
+            <li id="senhaNum">Senha com pelo menos um número.</li>
+        </ul>
+
+
+        <br>
+        <button type="button" onclick="verificaSenha()" id="verificarBtn">Verificar senha forte</button>
+
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

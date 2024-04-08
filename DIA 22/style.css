@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+h2{
+    color: black;
+    position: absolute;
+    margin-bottom: 1200px;
+}
+
+.gImagens{
+
+    margin: 4%;
+}
+
+.linha1, .linha2, .linha3{
+    gap: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.linha2, .linha3{
+    margin-top: 40px;
+}
+
+img{
+    border: 2px black solid;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 10px 10px 0px -4px rgba(0, 0, 0, 0.3);
+}
+
+img:hover{
+    transform: scale(1.18) ;
+    border-radius: 20px;
+}
+
+button{
+    font-weight: bold;
+    position: absolute;
+    margin-bottom: 1120px;
+}
