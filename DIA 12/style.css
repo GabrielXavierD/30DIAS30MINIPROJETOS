@@ -1,0 +1,61 @@
+/*DIA 13*/
+
+body{
+
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+
+.juntatudo{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #bb8450;
+    height: 2280px;
+    width: 1040px;
+}
+
+
+img{
+    height: 520px;
+    width:  520px;
+}
+
+
+p{
+    width: 900px;
+}
+
+
+
+
+
+
+
+.pinturas img{
+   
+    width: 420px;
+    height: 420px;
+}
+
+
+.pinturaslinha{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.pinturaslinha2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
