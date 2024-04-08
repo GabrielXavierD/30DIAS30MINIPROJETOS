@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Idade</title>
+</head>
+
+<body>
+<div class="calculadora">
+   
+    <h1>Converter idade de cão em idade humana</h1>
+    <label for="">Tamanho do cão:</label><br>
+<div class="tamanhoCao">
+    <p>Pequeno (< 10Kg)</p>
+    <input type="radio" name="tamanhoCao" id="tPequeno">  <br>
+    <p>Médio (10Kg a 22Kg)</p>
+    <input type="radio" name="tamanhoCao" id="tMedio"> <br>
+    <p>Grande (> 22Kg)</p>
+    <input type="radio" name="tamanhoCao" id="tGrande">  <br>
+</div>    
+    
+    <br>
+        <input type="text" name="tamanhoCao" id="idadeCao" placeholder="Digite a idade do seu cão"><br>
+        <br>
+        <button onclick="calculaIdade()">Calcular idade</button>
+        <br><br>
+        <label for="" id="labelResultado">Resultado:</label><br>
+        <input type="text" id="resultado">
+
+        <br><span class="tooltip" data-tooltip="O resultado final pode ter uma variação/decremento de até 20 anos, pois não está sendo considerado a raça.">&#x26A0 Passe o mouse aqui!</span>
+        <span style="color:white;">@GabrielXavierD</span>
+    </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

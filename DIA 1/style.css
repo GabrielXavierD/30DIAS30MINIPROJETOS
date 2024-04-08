@@ -1,0 +1,105 @@
+<<<<<<< HEAD
+/*DIA1*/
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+    text-align: center;
+}
+h1{
+    
+    font-size: 80px;
+    transition: 0.5s ease;
+}
+
+h2{
+    
+    margin-top: -70px;
+    color: #ffffff;
+}
+
+h3{
+    color: #000000;
+    text-align: justify;
+   text-align: center;
+}
+
+h1:hover{
+    color: red;
+    font-size: 100px;
+    transition: 0.5s ease;
+}
+
+button{
+    margin-top: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:40px;
+    width: 200px;
+    border-radius: 0px;
+    background-color: rgb(238, 238, 238);
+    border-color: rgb(211, 211, 211);
+}
+
+=======
+/*DIA1*/
+
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20%;
+    text-align: center;
+}
+h1{
+    
+    font-size: 80px;
+    transition: 0.5s ease;
+}
+
+h2{
+    
+    margin-top: -70px;
+    color: #ffffff;
+}
+
+h3{
+    color: #000000;
+    text-align: justify;
+   text-align: center;
+}
+
+h1:hover{
+    color: red;
+    font-size: 100px;
+    transition: 0.5s ease;
+}
+
+button{
+    margin-top: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:40px;
+    width: 200px;
+    border-radius: 0px;
+    background-color: rgb(238, 238, 238);
+    border-color: rgb(211, 211, 211);
+}
+
+>>>>>>> 55265a52762d4fe0add28a9fc2c3d7c548bc3f50
