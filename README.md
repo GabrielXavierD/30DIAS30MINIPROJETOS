@@ -90,3 +90,6 @@ ou fraca, com base em critérios predefinidos.
 
 • Dia 30: Mudança de Cor Aleatória - Desenvolva uma página que mude de cor de<br>
 fundo aleatoriamente sempre que um botão for clicado.
+
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin?username=GabrielXavierD&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
