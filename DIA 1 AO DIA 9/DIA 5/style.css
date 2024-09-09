@@ -1,12 +1,14 @@
 /*DIA 5*/
+
+
 body {
+  max-width: 1900px;
   background-color: rgb(255, 225, 161);
   margin: 0;
   padding: 0;
 }
 
 .container {
-  max-width: 1900px;
   margin: auto;
   padding: 20px;
 }
@@ -85,10 +87,11 @@ h2{
 
 
    #texto2{
+    white-space: nowrap;
     margin-top: -90px;
     margin-left: 590px;
-    width: 840px !important;
   }
+
    #texto3{
     margin-top: -20px;
     margin-left: 20px;
@@ -99,10 +102,8 @@ h3 {
   text-align: justify;
 }
 
-
-
 .content3 {
-  margin-top: 260px;
+  margin-top: 320px;
   display: flex;
 }
 
@@ -117,11 +118,7 @@ h3 {
 .square3{
   position: absolute;
   margin-top: -160px;
-  background-image: url(equipe4.png);
-  background-repeat: no-repeat;
   margin-left: 270px;
-  width: 2976px !important;
-  height: 400px;
 }
 #texto5{
   margin-top: 282px;

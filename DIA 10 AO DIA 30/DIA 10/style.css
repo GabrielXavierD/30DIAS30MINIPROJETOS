@@ -68,7 +68,3 @@ input{
     border: none;
     height: 28px;
 }
-
-input:hover{
-   border: black 2px solid;
-}
