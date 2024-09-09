@@ -37,5 +37,4 @@ document.getElementById('at-item').animate([
 	iterations: 1,
 	direction: 'normal',
 	fill: 'none'
->>>>>>> 55265a52762d4fe0add28a9fc2c3d7c548bc3f50
 });
